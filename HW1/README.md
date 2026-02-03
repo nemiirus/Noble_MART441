@@ -1,0 +1,1 @@
+This is a readme for Homework 1, where I'm just creating a simple introductory webpage. 

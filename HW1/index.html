@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mason Noble | Game Memory</title>
+
+  <style>
+
+    /* base styling/mobile first */
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      line-height: 1.6;
+      color: #222;
+      background-color: #f5f5f5;
+    }
+
+    section {
+      padding: 3rem 1.5rem;
+    }
+
+    h1, h2 {
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+
+    p {
+      max-width: 650px;
+      margin-bottom: 1rem;
+    }
+
+  /* hero section styling */
+
+    .hero {
+      height: 100vh;
+      background-image: url("imgs/greenfern.jpg");
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      padding: 3rem;
+    }
+
+    .hero-content {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 5rem;
+      border-radius: 8px;
+      font-family: serif;
+      font-size: 1.5rem;
+    }
+
+    .hero h1 {
+      font-size: 4rem;
+      font-family: serif;
+    }
+
+    /* --------------------
+       about section styling
+    -------------------- */
+
+    .about {
+      background-color: #dce4c3;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-family: serif;
+      font-size: 1.2rem;
+    }
+
+  
+
+    /* --------------------
+       memory section styling
+    -------------------- */
+
+    .memory {
+      background-color: #dce4c3;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-family: serif;
+      font-size: 1.2rem;
+    }
+
+    /* --------------------
+       breakpoint 1
+    -------------------- */
+
+    @media (min-width: 600px) {
+      .hero h1 {
+        font-size: 2.5rem;
+      }
+
+      section {
+        padding: 4rem 3rem;
+      }
+    }
+
+    /* --------------------
+       breakpoint 2
+    -------------------- */
+
+    @media (min-width: 900px) {
+      .about, .memory {
+        display: flex;
+        gap: 3rem;
+        align-items: flex-start;
+      }
+
+      .about p, .memory p {
+        max-width: 500px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Introductory Site</h1>
+      <p>A small icebreaker for this class.</p>
+    </div>
+  </section>
+
+  <!-- about me -->
+  <section class="about">
+    <div>
+      <h2>About Me</h2>
+      <p>
+        Hi! I'm Mason Noble. My pronouns are he/they, and I'm a digital artist and Media Arts major. I dabble in code from time to time,
+        and this class is no exception!
+      </p>
+      <p>
+        I am inspired by games that are more than just their gameplay- they
+        act as spaces for reflection, connection, and storytelling. Especially storytelling.
+      </p>
+    </div>
+  </section>
+
+  <!-- memory -->
+  <section class="memory">
+    <div>
+      <h2>A Game Memory</h2>
+      <p>
+        One of my strongest gaming memories comes from playing Roblox- specifically, Dandy's World, with
+        a couple of friends of mine. We had been fiending to reach Floor 20, which is rare for most players of the game
+        to accomplish. And not only did we do that, we reached Floor 25.
+      </p>
+      <p>
+        We achieved it through teamwork and connection. I remember how excited we were when we finally reached our goal
+        like it had happened yesterday.
+      </p>
+    </div>
+  </section>
+
+</body>
+</html>

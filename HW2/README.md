@@ -1,1 +1,1 @@
-This is a readme for Homework 1, where I'm just creating a simple introductory webpage. 
+For the Generative AI component, I asked an AI tool to generate a sample homework page using HTML and JavaScript with console.log() statements and a prompt interaction. I compared the generated example with my own version and adjusted the structure, comments, and content to better reflect my interests and match the assignment requirements.
